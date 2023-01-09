@@ -1,0 +1,29 @@
+.bg-image{
+    position: relative;
+    height: 800px;
+    z-index: 1;
+    background-image: url("bg.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    margin:20px;
+
+}
+.frontpg{
+    /* height: 800px; */
+    margin-right: 20px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    background-color: rgba(73, 70, 73,0.5);
+}
+#navbarSupportedContent{
+    color:white;
+}
+.par{
+    width:25%;
+    color:white;
+    font-size: 24px;
+    margin-left: 75%;
+}
+
