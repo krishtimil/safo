@@ -33,6 +33,15 @@
 #navbarSupportedContent{
     margin-left: 71%;
     color: white;
-    
 }
-
+.card{
+    width: 20%;
+    height: 40%;
+}
+.secondpg{
+    background-color: white;
+    width: 100%;
+}
+.crd{
+    margin: 10%;
+}
