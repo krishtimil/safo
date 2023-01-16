@@ -1,0 +1,35 @@
+{# Load the tag library #}
+{% load bootstrap5 %}
+{% load static %}
+
+{# Load CSS and JavaScript #}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+
+{# Display django.contrib.messages as Bootstrap alerts #}
+{% bootstrap_messages %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css"   href='{% static 'css/index.css'%}'>
+</head>
+<body class="bg-image" style="background-image: url('{% static 'img/bg.jpg'%}');">
+
+
+    <div class="frontpg">
+        {% include "core/navbar.html" %}
+        {% include "core/para.html" %}
+    </div>
+    <div class="secondpg">
+        {% include "core/about.html" %}</div> 
+    <section>
+        {% include "core/footer.html" %}
+    </section>  
+</body>
+</html>
