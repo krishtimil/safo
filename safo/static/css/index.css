@@ -62,7 +62,12 @@
     width: 50%;
   }
   
-  .row {
+.row {
     display: table;
     clear: both;
-  }
+}
+ 
+
+
+
+
