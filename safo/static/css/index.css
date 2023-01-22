@@ -7,6 +7,9 @@
     margin:20px;
 
 }
+.crd{
+    margin-top: 20%;
+}
 .frontpg{
     /* height: 800px; */
     margin-right: 20px;
@@ -35,7 +38,7 @@
     color: white;
 }
 .secondpg{
-    margin-top: auto;
+    margin-top: 50%;
 }
 .foot{
     background-color: #666;
