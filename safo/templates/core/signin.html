@@ -6,15 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SIGN IN</title>
-    <link rel="stylesheet" type="text/css"   href='{% static 'css/signin.css'%}'>
+    <link rel="stylesheet" type="text/css"   href='{% static 'css/sign.css'%}'>
 
 </head>
 <body>
     <div class="flex-container">
 
         <div class="flex-child magenta" style="background-color: #CEECEB;">
-            <div class="ins">
-                <img src="safo.png" id="image" style="width: 200px">
+            <div class="ins" style="background-color: #a1d1bb;">
+                <img src="{% static "img/safo.png" %}" id ="image" style="width:  200px;">
                 <h1 class="tit" style="text-align: center;">Welcome back</h1>
                 <form>
                     <div class="signup">
@@ -45,7 +45,8 @@
     
     <div class="flex-child green" style="background-color:#a1d1bb;">
         <div class="inst">
-    
+            <img src="{% static "img/sideimg.jpg" %}"  style="width:  810px;  height: 750px; float: right; border-radius: 10px;">
+
         </div>
     
     </div>
