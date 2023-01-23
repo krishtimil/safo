@@ -1,3 +1,27 @@
+{# Load the tag library #}
+{% load bootstrap5 %}
+{% load static %}
+
+{# Load CSS and JavaScript #}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+
+{# Display django.contrib.messages as Bootstrap alerts #}
+{% bootstrap_messages %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>detailpage</title>
+    <link rel="stylesheet" type="text/css"   href='{% static 'css/index.css'%}'>
+
+</head>
+<body>
+    
+</body>
+</html>
 <div class="bod">
     <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
@@ -10,7 +34,8 @@
     <div class="tot">
         <div class="row">
             <div class="column">
-                <img class="bg" src="bg.jpg">
+                <img src="{% static "img/safo.png" %}" id ="image" style="width:  200px;">
+
             </div>
             <div class="column">
                 <div class="pr">
@@ -23,5 +48,24 @@
                 </div>
             </div>
         </div>
+
+        <div class="row">
+            <div class="column">
+                <img src="{% static "img/safo.png" %}" id ="image" style="width:  200px;">
+
+            </div>
+            <div class="column">
+                <div class="pr">
+                    <br>
+                    <h1>title</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia illum optio ea voluptates fugit
+                        praesentium excepturi eaque incidunt in numquam. Excepturi quia pariatur explicabo laboriosam
+                        sit iusto quibusdam. Unde, pariatur.</p>
+                    <h2>20%off grab it now</h2>
+                </div>
+            </div>
+        </div>
+
+        
     </div>
 </div>

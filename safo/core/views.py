@@ -6,4 +6,4 @@ def homepage(request, *args, **kwargs):
     return render(request, 'core/base.html')
 
 def contactpage(request, *args, **kwargs):
-    return render(request, 'core/test.html')
+    return render(request, 'core/detailpg.html')

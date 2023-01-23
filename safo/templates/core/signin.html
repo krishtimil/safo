@@ -1,4 +1,15 @@
-{%load static %}
+{# Load the tag library #}
+{% load bootstrap5 %}
+{% load static %}
+
+{# Load CSS and JavaScript #}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+
+{# Display django.contrib.messages as Bootstrap alerts #}
+{% bootstrap_messages %}
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,7 +33,6 @@
                             <label for="exampleInputEmail1" class="form-label">Email address</label>
                             <input type="email" class="form-control" id="exampleInputEmail1"
                                 aria-describedby="emailHelp">
-                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Password</label>
@@ -45,7 +55,7 @@
     
     <div class="flex-child green" style="background-color:#a1d1bb;">
         <div class="inst">
-            <img src="{% static "img/sideimg.jpg" %}"  style="width:  810px;  height: 750px; float: right; border-radius: 10px;">
+            <img src="{% static "img/sideimg.jpg" %}"  style="width:  830px;  height: 750px; float: right; border-radius: 10px;">
 
         </div>
     
